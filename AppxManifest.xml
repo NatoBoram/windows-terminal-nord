@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" IgnorableNamespaces="uap uap3 mp">
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities">
     <Identity Name="ArcticIceStudio.Nord.WindowsTerminal" Version="0.0.0.1" Publisher="CN=ArcticIceStudio, O=Nord, L=Berlin, S=Berlin, C=Germany" ProcessorArchitecture="neutral" />
     <Properties>
         <DisplayName>Windows Terminal Nord</DisplayName>
         <PublisherDisplayName>Arctic Ice Studio</PublisherDisplayName>
         <Description>Port of Nord for Windows Terminal</Description>
-        <Logo>images/logo.svg</Logo>
+        <Logo>images/logo.png</Logo>
     </Properties>
-    <Applications>
-        <Application Id="ArcticIceStudio.Nord.WindowsTerminal">
-            <Extensions>
-                <uap3:Extension Category="windows.appExtension">
-                    <uap3:AppExtension Name="com.microsoft.windows.terminal.settings" Id="ArcticIceStudio.Nord.WindowsTerminal" PublicFolder="Public"></uap3:AppExtension>
-                </uap3:Extension>
-            </Extensions>
-        </Application>
-    </Applications>
+    <Resources>
+        <Resource Language="en-us" />
+    </Resources>
+    <Dependencies>
+        <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.14316.0" MaxVersionTested="10.0.15063.0" />
+    </Dependencies>
 </Package>

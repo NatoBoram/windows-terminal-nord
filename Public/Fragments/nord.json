@@ -3,7 +3,6 @@
     "schemes": [
         {
             "name": "Nord UWP",
-            "acrylicOpacity": 0.9,
             "foreground": "#d8dee9",
             "background": "#2e3440",
             "cursorColor": "#d8dee9",
