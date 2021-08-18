@@ -4,7 +4,6 @@
             <Extensions>
                 <uap3:Extension Category="windows.appExtension">
                     <uap3:AppExtension Name="com.microsoft.windows.terminal.settings" Id="ArcticIceStudio.Nord.WindowsTerminal" PublicFolder="Public"></uap3:AppExtension>
-                    <uap3:AppExtension Name="com.microsoft.windows.terminal.settings.preview" Id="ArcticIceStudio.Nord.WindowsTerminal" PublicFolder="Public"></uap3:AppExtension>
                 </uap3:Extension>
             </Extensions>
         </Application>
