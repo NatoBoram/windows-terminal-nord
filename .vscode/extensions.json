@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "arcticicestudio.nord-visual-studio-code",
+        "davidanson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "github.vscode-pull-request-github",
+        "ms-vscode.github-issues-prs",
+        "redhat.vscode-xml",
+    ]
+}
